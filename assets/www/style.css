@@ -1,0 +1,177 @@
+/* CSS Document */
+
+body 
+{
+	background:#000000;
+	margin:0px;
+	color:#ffffff;
+	height:100%;
+	
+}
+a {
+	color:#fff;	
+	font-face: Georgia, 'Times New Roman', Times, serif;
+	font-size:1.1em;
+}
+ul
+{
+	background:#000000;
+}
+ul.list {
+	
+	background:#000000;
+	list-style:none;
+}
+li {
+	background:#000000;
+	list-style:none;
+}
+img.thumb {
+	background:#000000;
+	border:0px;
+	z-index:0;
+	margin:2px;
+	opacity:0;
+	filter:alpha(opacity=0);
+	text-align:left;
+}
+img.thumb:hover{
+	
+}
+#thumbnails {
+	overflow:hidden;
+	text-align:left;	
+	width:25%;
+	background:#000000;
+}
+
+#page {
+	color:#aaa;
+	font-size:1.1em;
+	text-align:right;
+	margin-right:40px;
+}
+div.content {
+	text-align:center;
+	height:90%;
+	width:70%;
+	background:#000000;
+	white-space:normal;
+	float:right;
+	text-align:left;
+	position:absolute;
+	top:43px;
+	right:10px;
+	padding-top:16px;
+}
+div.sliderDiv {
+	overflow:hidden;
+	text-align:left;
+	height:4px;
+	width:80%;
+	background:#000000;
+	white-space:nowrap;
+	float:left;
+	position:absolute;
+	left:0;
+	top:60px;
+}
+
+div.search
+{
+	position:fixed;
+	top:4px;
+	right:0px;
+	float:right;
+	text-align:top;
+	vertical-align:top;
+}
+input {
+	border-radius: 3px;
+   -webit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   background:#fff; 
+   border: 1px solid #666;
+   height:24px;
+   padding:4px 5px;
+   margin:5px;
+   color:#000;
+   text-align:top;
+}
+input.search {
+	border-radius: 3px;
+   -webit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   background:#fff;
+	color:#000;
+	font-size:1.1em;
+	height:29px;
+	line-height:1;
+	padding:2px 5px;
+	width:186px;
+	margin:5px;
+}
+img.search {
+	position:relative;
+	top:2px;
+	vertical-align:top;
+	height:38px;
+	width:38px;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}
+
+#shell {
+	width:100%;
+	height:100%;
+	background:#000000;	
+}
+#loadingImg {
+	background:#000000;
+	float:left;
+	position:absolute;
+	top:20%;
+	left:50%;
+	margin-top:-16px;
+	margin-left:-16px;
+	text-align:left;
+	display:none;
+}
+#loading {
+	background:#000000;
+	float:left;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	text-align:left;
+	display:none;
+}
+#loadingThumbsImg {
+	background:#000000;
+	float:left;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-16px;
+	margin-left:-16px;
+	text-align:left;
+	display:none;
+}
+#loadingThumbs {
+	background:#000000;
+	float:left;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:25%;
+	height:100%;
+	text-align:left;
+	display:none;
+}
+#descriptionSpan {
+	display:none;
+	text-align:left;
+	padding:15px;
+}

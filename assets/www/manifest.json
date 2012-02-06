@@ -1,0 +1,19 @@
+{
+  "name:"photograph",
+  "description": "photograph base on flickr",
+  "version": "1",
+  "app": {
+    "urls": [
+      "*:index.html",
+    ],
+    "launch": {
+      "web_url": "index.html"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage"
+  ]
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<meta http-equiv="Access-Control-Allow-Origin" content="*">
+<title>图片分享Flickr</title>
+<link rel="stylesheet" href="style.css" />
+<script src="jquery.js" ></script>
+<script src="app.js" ></script>
+</head>
+
+<body>
+
+<div>
+	<div id="thumbnails" ontouchstart="touchstart(event);" ontouchmove="touchover(event);" ontouchend="clearInterval(timeout); timeout=0;" >
+	</div>
+</div>
+
+<div>
+	<div class="search">
+        	<span id="page"></span>
+				<input type="search" name="search" class="search" onKeyUp="if(event.keyCode == 13){fetchThumbs('search', null, $('input.search').val(), 1); $('input.search').blur()}return false;" />
+				<img class="search" src="search-button.png" title="Search" onClick="fetchThumbs('search', null, $('input.search').val(), 1)" />
+	</div>
+</div>
+
+<div id="loadingThumbs">
+	<div id="loadingThumbsImg">
+		<img width="32px" height="32px" src="ajax-loader.gif" />
+	</div>
+</div>
+
+<div>
+	<div>
+		<div class="content">
+			<div>
+				<img id="focusImg"  style="width:100%" style="display:none" /><br/>
+				<div id="descriptionSpan" ></div>
+			</div>
+
+			<div id="loading">
+				<div id="loadingImg">
+					<img width="32px" height="32px" src="ajax-loader.gif" />
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+
+
+</body>
+</html>
